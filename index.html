@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:">
+    <title>DNS Server Default Page</title>
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f1f1f1;
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      .container { margin: 100px auto 40px auto; width: 600px; text-align: center; }
+
+      h1 { width: 600px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 30px 0; text-shadow: 0 1px 0 #fff; color: #333; }
+      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+      h5 { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+      .info-box {
+        background-color: #f9f9f9;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        padding: 20px;
+        margin: 30px 0;
+      }
+      
+      .info-title {
+        font-weight: bold;
+        color: #4183c4;
+        margin-bottom: 10px;
+      }
+      
+      .info-content {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello DNSworld</h1>
+      
+      <p><strong>这是一个"DNS World"的DNS权威服务器默认页面<br/>It's a "DNS World" dns authoritative server default page for</strong></p>
+      
+      <div class="info-box">
+        <div class="info-title">NS服务器地址-NS-Server Address</div>
+        <div class="info-content">
+         <h3>ns1.dnsworld.top<br>
+             ns2.dnsworld.top
+          </h3>
+          <span style="color:#FF0000; font-size:15px;">两个NS服务器都需要添加，否则它们将无法正常工作</span><br>
+          <span style="color:#FF0000; font-size:13px;">Both ns servers need to be added or they will not work properly</span>
+        </div>
+      </div>
+      
+      <h5><strong>本服务器由"科技创想网络工作室"代理"华为云DNS"提供<br/>This server is provided by "Huawei-cloud dns" on behalf of "Technology Innovation Network Studio"</strong></h5>
+    </div>
+  </body>
+</html>
